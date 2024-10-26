@@ -58,7 +58,7 @@ export function SubscribeCard() {
             <CardContent>
                 <Form {...form}>
                     <form action={formAction} className={'flex flex-row items-start gap-x-2'}>
-                        <div>
+                        <div className={'flex-grow'}>
                             <FormField
                                 control={form.control}
                                 name="email"
@@ -66,7 +66,7 @@ export function SubscribeCard() {
                                     <FormItem>
                                         <FormControl>
                                             <Input type="email" placeholder="Your email" {...field}
-                                                   className={cn(state.errors?.email && 'border-destructive')}
+                                                   className={cn('', state.errors?.email && 'border-destructive')}
                                             />
                                         </FormControl>
                                         {state.errors?.email && (

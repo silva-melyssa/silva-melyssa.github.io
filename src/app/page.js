@@ -1,9 +1,6 @@
 import {ArticleCard} from "@/components/article-card";
-import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@/components/ui/card";
-import {Input} from "@/components/ui/input";
-import {Form, FormControl, FormDescription, FormItem, FormMessage} from "@/components/ui/form";
-import {Button} from "@/components/ui/button";
 import {SubscribeCard} from "@/components/subscribe-card";
+import {SkillsCard} from "@/components/skills-card";
 
 const articles = [
     {
@@ -20,8 +17,23 @@ const articles = [
     }
 ]
 
-export default function Home() {
-
+export default async function Home() {
+    const data = {
+        languages: [
+            {
+                name: 'JavaScript',
+                percent: 95,
+            },
+            {
+                name: 'CSS',
+                percent: 30,
+            },
+            {
+                name: 'HTML',
+                percent: 10,
+            },
+        ],
+    };
 
     return (
         <div className={'flex flex-col md:flex-row'}>
@@ -30,8 +42,9 @@ export default function Home() {
                     <ArticleCard key={index} {...article} />
                 ))}
             </div>
-            <div className={'md:w-2/5'}>
+            <div className={'md:w-2/5 space-y-8'}>
                 <SubscribeCard/>
+                <SkillsCard stats={data}/>
             </div>
         </div>
     );
