@@ -57,12 +57,18 @@ export function Header() {
                         </Button>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent>
-                        <DropdownMenuLabel>My Account</DropdownMenuLabel>
-                        <DropdownMenuSeparator/>
-                        <DropdownMenuItem>Profile</DropdownMenuItem>
-                        <DropdownMenuItem>Billing</DropdownMenuItem>
-                        <DropdownMenuItem>Team</DropdownMenuItem>
-                        <DropdownMenuItem>Subscription</DropdownMenuItem>
+                        <DropdownMenuItem>
+                            <Link href={'/'} className={'w-full'}>Home</Link>
+                        </DropdownMenuItem>
+                        <DropdownMenuItem>
+                            <Link href={'/about'} className={'w-full'}>About</Link>
+                        </DropdownMenuItem>
+                        <DropdownMenuItem>
+                            <Link href={'/projects'} className={'w-full'}>Projects</Link>
+                        </DropdownMenuItem>
+                        <DropdownMenuItem>
+                            <Link href={'/uses'} className={'w-full'}>Uses</Link>
+                        </DropdownMenuItem>
                     </DropdownMenuContent>
                 </DropdownMenu>
                 <ModeToggle/>
