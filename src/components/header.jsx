@@ -35,5 +35,6 @@ export function Header() {
                 <NavbarLink href={'/projects'}>Projects</NavbarLink>
                 <NavbarLink href={'/uses'}>Uses</NavbarLink>
             </nav>
-        </header>);
+        </header>
+    );
 }
