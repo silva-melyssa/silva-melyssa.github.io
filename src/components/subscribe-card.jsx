@@ -1,17 +1,17 @@
 'use client';
 
-import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "@/components/ui/card";
-import {Form, FormControl, FormField, FormItem, FormMessage} from "@/components/ui/form";
-import {Input} from "@/components/ui/input";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Form, FormControl, FormField, FormItem, FormMessage } from "@/components/ui/form";
+import { Input } from "@/components/ui/input";
 import z from "zod";
-import {useForm} from "react-hook-form";
-import {useFormState} from 'react-dom'
-import {zodResolver} from "@hookform/resolvers/zod";
-import {subscribe} from "@/actions/subscribe";
-import {cn} from "@/lib/utils";
-import {FormButton} from "@/components/ui/form-button";
-import {useToast} from "@/hooks/use-toast";
-import {useEffect} from "react";
+import { useForm } from "react-hook-form";
+import { useFormState } from 'react-dom'
+import { zodResolver } from "@hookform/resolvers/zod";
+import { subscribe } from "@/actions/subscribe";
+import { cn } from "@/lib/utils";
+import { FormButton } from "@/components/ui/form-button";
+import { useToast } from "@/hooks/use-toast";
+import { useEffect } from "react";
 
 const initialState = {
     state: 'pending',
@@ -19,7 +19,7 @@ const initialState = {
 }
 
 export function SubscribeCard() {
-    const {toast} = useToast();
+    const { toast } = useToast();
 
     const [state, formAction] = useFormState(subscribe, initialState);
 
@@ -50,7 +50,7 @@ export function SubscribeCard() {
     return (
         <Card>
             <CardHeader>
-                <CardTitle className={'text-base'}>Stay up to date</CardTitle>
+                <CardTitle className={'text-base'}>✉️ Stay up to date</CardTitle>
                 <CardDescription className={'text-sm'}>
                     Get notified when I publish something new, and unsubscribe at any time.
                 </CardDescription>
@@ -62,11 +62,11 @@ export function SubscribeCard() {
                             <FormField
                                 control={form.control}
                                 name="email"
-                                render={({field}) => (
+                                render={({ field }) => (
                                     <FormItem>
                                         <FormControl>
                                             <Input type="email" placeholder="Your email" {...field}
-                                                   className={cn('', state.errors?.email && 'border-destructive')}
+                                                className={cn('', state.errors?.email && 'border-destructive')}
                                             />
                                         </FormControl>
                                         {state.errors?.email && (
