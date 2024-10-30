@@ -21,18 +21,18 @@ export default async function Page() {
                     {/* Row 1 */}
                     <div className="flex flex-col sm:flex-row sm:justify-between sm:gap-4 w-full">
                         <ProjectCard
-                            company="Company 1"
-                            description="Creating technology to empower civilians to explore space on their own terms."
+                            company="Portfolio"
+                            description="Showcasing personal projects and skills in web development and design."
                             link="https://company1.com"
                         />
                         <ProjectCard
-                            company="Company 2"
-                            description="Innovating solutions for sustainable energy."
+                            company="Chamber"
+                            description="Driving local business growth through modern, user-friendly web solutions."
                             link="https://silva-melyssa.github.io/wdd230/chamber/index.html"
                         />
                         <ProjectCard
-                            company="Company 3"
-                            description="Developing software for healthcare solutions."
+                            company="Rafting"
+                            description="Creating adventure-driven platforms for outdoor enthusiasts and sports lovers."
                             link="https://silva-melyssa.github.io/wdd130/wwr/index.html"
                         />
                     </div>
@@ -40,13 +40,13 @@ export default async function Page() {
                     {/* Row 2 */}
                     <div className="flex flex-col sm:flex-row sm:justify-between sm:gap-4 w-full">
                         <ProjectCard
-                            company="Company 4"
-                            description="Building web applications for small businesses."
+                            company="Brazilian beauties"
+                            description="Building website to show the beautiful places in Brazil and it culture."
                             link="https://silva-melyssa.github.io/wdd130/brazilianbeauties/index.html"
                         />
                         <ProjectCard
-                            company="Company 5"
-                            description="Creating cutting-edge AI solutions."
+                            company="Scoots rental"
+                            description="Building user-friendly rental platforms for easy scooter access and transportation."
                             link="https://silva-melyssa.github.io/wdd230/rentals.html"
                         />
                         <ProjectCard

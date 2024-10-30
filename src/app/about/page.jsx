@@ -10,7 +10,7 @@ export default async function Page() {
             {/* Left Side: Text Content */}
             <div className="flex flex-col justify-start items-start gap-6 w-full md:w-[464px] order-1 md:order-1">
                 <h1 className="text-4xl font-bold">
-                    I’m Jane. I live in New York City, where I develop the future.
+                    I’m Melyssa. I live in Salt Lake City, where I develop the future.
                 </h1>
                 {Array.from({ length: 4 }, (_, index) => (
                     <p key={index} className="text-gray-600 dark:text-gray-400 text-sm leading-6">

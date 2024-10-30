@@ -15,7 +15,7 @@ const Profile = () => {
                 />
             </div>
             <div className="text-black dark:text-white text-3xl font-bold leading-9">
-                Software engineer, father, and believer
+                Software engineer and believer
             </div>
             <div className="text-gray-600 dark:text-gray-400 text-base leading-7">
                 Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi..
