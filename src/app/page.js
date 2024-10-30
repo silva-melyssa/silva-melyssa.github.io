@@ -44,7 +44,7 @@ export default async function Home() {
     };
 
     return (
-        <div className="flex justify-between min-h-screen mx-0 px-[144px] py-4"> {/* Added padding and adjusted margin */}
+        <div className="flex justify-between min-h-screen mx-0 py-4"> {/* Added padding and adjusted margin */}
             <div className="flex flex-col items-start flex-grow"> {/* Allow this column to grow */}
                 <Profile />
                 <div className={'flex flex-col md:flex-row'}>

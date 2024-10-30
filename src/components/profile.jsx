@@ -10,7 +10,7 @@ const Profile = () => {
             <div className="w-16 h-16 p-2 bg-opacity-90 bg-white rounded-full flex justify-center items-center">
                 <img
                     className="w-15 h-15 rounded-full"
-                    src="https://via.placeholder.com/60x60"
+                    src="/profileimg.jpeg"
                     alt="Profile"
                 />
             </div>

@@ -28,12 +28,12 @@ export default async function Page() {
                         <ProjectCard
                             company="Company 2"
                             description="Innovating solutions for sustainable energy."
-                            link="https://company2.com"
+                            link="https://silva-melyssa.github.io/wdd230/chamber/index.html"
                         />
                         <ProjectCard
                             company="Company 3"
                             description="Developing software for healthcare solutions."
-                            link="https://company3.com"
+                            link="https://silva-melyssa.github.io/wdd130/wwr/index.html"
                         />
                     </div>
 
@@ -42,12 +42,12 @@ export default async function Page() {
                         <ProjectCard
                             company="Company 4"
                             description="Building web applications for small businesses."
-                            link="https://company4.com"
+                            link="https://silva-melyssa.github.io/wdd130/brazilianbeauties/index.html"
                         />
                         <ProjectCard
                             company="Company 5"
                             description="Creating cutting-edge AI solutions."
-                            link="https://company5.com"
+                            link="https://silva-melyssa.github.io/wdd230/rentals.html"
                         />
                         <ProjectCard
                             company="Company 6"

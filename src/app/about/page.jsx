@@ -6,7 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default async function Page() {
     return (
-        <div className="flex flex-col md:flex-row justify-between min-h-screen mx-0 px-4 py-4 bg-white dark:bg-black text-gray-900 dark:text-white">
+        <div className="flex flex-col-reverse md:flex-row justify-between min-h-screen mx-0 px-4 py-4 bg-white dark:bg-black text-gray-900 dark:text-white">
             {/* Left Side: Text Content */}
             <div className="flex flex-col justify-start items-start gap-6 w-full md:w-[464px] order-1 md:order-1">
                 <h1 className="text-4xl font-bold">
@@ -24,7 +24,7 @@ export default async function Page() {
                 {/* Image at the top in mobile view */}
                 <img
                     className="w-full h-[452px] object-cover rounded-lg"
-                    src="src/image/profileimg.jpeg"
+                    src="/profileimg.jpeg"
                     alt="About Image"
                 />
 
