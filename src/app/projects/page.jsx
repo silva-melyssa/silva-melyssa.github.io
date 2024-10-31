@@ -16,45 +16,38 @@ export default async function Page() {
                     </p>
                 </div>
 
-                {/* Responsive container for project cards */}
-                <div className="flex flex-col items-start gap-4 w-full">
-                    {/* Row 1 */}
-                    <div className="flex flex-col sm:flex-row sm:justify-between sm:gap-4 w-full">
-                        <ProjectCard
-                            company="Portfolio"
-                            description="Showcasing personal projects and skills in web development and design."
-                            link="https://company1.com"
-                        />
-                        <ProjectCard
-                            company="Chamber"
-                            description="Driving local business growth through modern, user-friendly web solutions."
-                            link="https://silva-melyssa.github.io/wdd230/chamber/index.html"
-                        />
-                        <ProjectCard
-                            company="Rafting"
-                            description="Creating adventure-driven platforms for outdoor enthusiasts and sports lovers."
-                            link="https://silva-melyssa.github.io/wdd130/wwr/index.html"
-                        />
-                    </div>
-
-                    {/* Row 2 */}
-                    <div className="flex flex-col sm:flex-row sm:justify-between sm:gap-4 w-full">
-                        <ProjectCard
-                            company="Brazilian beauties"
-                            description="Building website to show the beautiful places in Brazil and it culture."
-                            link="https://silva-melyssa.github.io/wdd130/brazilianbeauties/index.html"
-                        />
-                        <ProjectCard
-                            company="Scoots rental"
-                            description="Building user-friendly rental platforms for easy scooter access and transportation."
-                            link="https://silva-melyssa.github.io/wdd230/rentals.html"
-                        />
-                        <ProjectCard
-                            company="Company 6"
-                            description="Designing user-friendly mobile applications."
-                            link="https://company6.com"
-                        />
-                    </div>
+                {/* Container for project cards */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
+                    <ProjectCard
+                        company="Portfolio"
+                        description="Showcasing personal projects and skills in web development and design."
+                        link="https://github.com/silva-melyssa/silva-melyssa.github.io"
+                    />
+                    <ProjectCard
+                        company="Chamber"
+                        description="Driving local business growth through modern, user-friendly web solutions."
+                        link="https://silva-melyssa.github.io/wdd230/chamber/index.html"
+                    />
+                    <ProjectCard
+                        company="Rafting"
+                        description="Creating adventure-driven platforms for outdoor enthusiasts and sports lovers."
+                        link="https://silva-melyssa.github.io/wdd130/wwr/index.html"
+                    />
+                    <ProjectCard
+                        company="Brazilian Beauties"
+                        description="Building a website to showcase the beautiful places in Brazil and its culture."
+                        link="https://silva-melyssa.github.io/wdd130/brazilianbeauties/index.html"
+                    />
+                    <ProjectCard
+                        company="Scoots Rental"
+                        description="Building user-friendly rental platforms for easy scooter access and transportation."
+                        link="https://silva-melyssa.github.io/wdd230/rentals.html"
+                    />
+                    <ProjectCard
+                        company="Company 6"
+                        description="Designing user-friendly mobile applications."
+                        link="https://company6.com"
+                    />
                 </div>
             </main>
         </div>
